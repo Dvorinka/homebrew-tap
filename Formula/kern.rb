@@ -3,28 +3,28 @@
 class Kern < Formula
   desc "KERN — self-hosted GitHub Actions-compatible CI control plane and CLI"
   homepage "https://github.com/Dvorinka/kern"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Dvorinka/kern/releases/download/v#{version}/kern-v#{version}-darwin-arm64.tar.gz"
-      sha256 "84f0603244f5e373bc62edda0ac8d6ef6140745e8ff2cb3b60cfb3f20d5f7219"
+      sha256 "4716344d4876cef02db46728c8d454e827eb1f4aaba7d643145baaff7034f01b"
     end
     on_intel do
       url "https://github.com/Dvorinka/kern/releases/download/v#{version}/kern-v#{version}-darwin-amd64.tar.gz"
-      sha256 "af9cc2e18df086d0cbc1f48c606bf2fab6f8504e6eba6181a8c588fe24fec2c8"
+      sha256 "da6b615adeea73150160c37c6e4cd607148bae5202af47dd0843d7094fef2f69"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Dvorinka/kern/releases/download/v#{version}/kern-v#{version}-linux-arm64.tar.gz"
-      sha256 "1f67bf249c8f358ec479c3ab91bd195711bbe5c0cbd714f08d9c38485e50de64"
+      sha256 "05fa48b0bfa8f13441672b86ac04740e4609d27b9ef63b62cf6cfe6166e27af5"
     end
     on_intel do
       url "https://github.com/Dvorinka/kern/releases/download/v#{version}/kern-v#{version}-linux-amd64.tar.gz"
-      sha256 "0eac8851033bbfeeabee3bc81e833eb5c36a2dd5b9da2f6661fe0e10bbf2279f"
+      sha256 "71fdef1d88172f83f6b2cb743afce85eda0ab7f7c3f537edc54a1d4d7b8f84d7"
     end
   end
 
